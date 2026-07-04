@@ -18,7 +18,8 @@ def insertion_sort_monotonically_decreasing(A):
 
 
 if __name__ == "__main__":
-    arr = [31, 23, 17, 14, 9, 5, 2]
+    #arr = [31, 23, 17, 14, 9, 5, 2]
+    arr = [2, 5, 9, 14, 17, 23, 31, 35]
     print("Original given array (monotonically decreasing):", arr)
     sorted_arr = insertion_sort_monotonically_decreasing(arr)
     print("Monotonically Decresaing Sorted array via insertion sort  :", sorted_arr)
